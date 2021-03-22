@@ -1,5 +1,3 @@
-import { server } from "../config/server";
-
 export default function Home() {
   return (
     <div>
@@ -7,15 +5,3 @@ export default function Home() {
     </div>
   );
 }
-
-export const getServerSideProps = async () => {
-  const result = await fetch(`${server}api/portfolio`);
-
-  const portfolio = await result.json();
-
-  return {
-    props: {
-      portfolio,
-    },
-  };
-};
