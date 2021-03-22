@@ -11,7 +11,8 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const AboutHeadline = styled.h1`
+export const AboutHeadline = styled.h2`
+  font-size: 28px;
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;

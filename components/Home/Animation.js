@@ -11,8 +11,9 @@ const Svg = styled.svg`
   }
 `;
 
-const MainHeadline = styled.p`
-  font-size: 30px;
+const MainHeadline = styled.h1`
+  font-weight: 400;
+
   position: absolute;
   top: 300px;
   left: 50%;

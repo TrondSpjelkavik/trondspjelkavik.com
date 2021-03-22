@@ -25,7 +25,7 @@ Meta.defaultProps = {
   keywords:
     "responsive web design, react, front end developer, portfolio, trond spjelkavik, javascript, golang, projects, trond fuglseth spjelkavik, IT, web developer, golang",
   description:
-    "Front-End developer portfolio for Trond Fuglseth Spjelkavik. Includes projects for e-commerce, Go lang and SpaceX microsite. Is currently a student @ Noroff - School of technology and digital media",
+    "Front-End developer portfolio for Trond Fuglseth Spjelkavik. Includes projects for e-commerce, Go lang and SpaceX microsite.",
   icon: "https://www.t-dev.no/api/t-dev/favicon.ico",
   icon_apple: "https:www.//t-dev.no/api/t-dev/favicon.ico",
 };
