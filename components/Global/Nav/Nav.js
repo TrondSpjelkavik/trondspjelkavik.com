@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NavList from "./components/NavList";
+import NavList from "./NavList";
 
 const NavContainer = styled.nav``;
 

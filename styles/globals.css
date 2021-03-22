@@ -1,16 +1,77 @@
-html,
-body {
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #651e3e;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  list-style: none;
 }
 
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
+li.active {
+  padding: 2px 0;
+  border-bottom: 2px solid #db6400;
+}
+
+a:hover {
+  text-decoration-line: overline;
+  text-decoration-color: #db6400;
+  text-decoration-thickness: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+.social-icons {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+.arrow-icon {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+.noroff-icon-text {
+  position: relative;
+  right: 12px;
+}
+
+.tech-icon-text {
+  position: relative;
+  right: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+.github-icon {
+  height: 35px;
+  width: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.github-icon:hover {
+  color: #db6400;
+}
+
+.close-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
 }
