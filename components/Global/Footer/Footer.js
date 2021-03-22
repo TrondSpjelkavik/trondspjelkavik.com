@@ -93,7 +93,7 @@ function Footer() {
 
   return (
     <FooterContainer>
-      <ToTheTop onClick={toTheTopButton}>
+      <ToTheTop onClick={toTheTopButton} arial-label="To the top button">
         <GoArrowUp className="arrow-icon"></GoArrowUp>
       </ToTheTop>
       <SocialIconsContainer>

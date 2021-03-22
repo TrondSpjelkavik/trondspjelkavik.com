@@ -80,8 +80,8 @@ const TechStackImage = styled.img`
 `;
 
 const TechStackNoroff = styled.img`
-  height: 78px;
-  width: 49px;
+  height: 58px;
+  width: 39px;
   @media (max-width: 700px) {
     height: 40px;
     width: 25px;
