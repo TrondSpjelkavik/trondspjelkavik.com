@@ -14,13 +14,14 @@ const HamburgerItems = styled.ul`
   justify-content: space-between;
   align-items: center;
   z-index: 9;
+  transition: 0.5s ease-in-out;
 
   @media (max-width: 768px) {
     display: flex;
     flex-flow: column nowrap;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-    transition: 0.5s ease-in-out;
+
     top: 0;
     right: 0;
     height: 100vh;
