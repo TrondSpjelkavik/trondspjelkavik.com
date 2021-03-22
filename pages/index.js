@@ -1,4 +1,4 @@
-import { server } from "../config";
+import { server } from "../config/server";
 
 export default function Home() {
   return (
