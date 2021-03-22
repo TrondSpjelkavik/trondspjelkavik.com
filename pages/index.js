@@ -1,7 +1,15 @@
+import Animation from "../components/Home/Animation";
+import WhoAmI from "../components/Home/WhoAmI";
+import Chart from "../components/Home/Chart";
+import About from "../components/Home/About";
+
 export default function Home() {
   return (
-    <div>
-      <h1> HELLO </h1>
-    </div>
+    <>
+      <Animation></Animation>
+      <WhoAmI></WhoAmI>
+      <Chart></Chart>
+      <About></About>
+    </>
   );
 }
