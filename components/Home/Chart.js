@@ -67,7 +67,7 @@ const ExperiencePercentage = styled.div`
   }
 `;
 
-const ChartHeadline = styled.h1`
+const ChartHeadline = styled.h2`
   align-items: center;
   text-align: center;
   font-size: 28px;
