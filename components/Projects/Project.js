@@ -10,6 +10,7 @@ export const ProjectInfoContainer = styled.div`
   height: 400px;
   margin: 80px 0 0 20px;
   font-family: "Inconsolata", monospace;
+
   @media (max-width: 800px) {
     align-items: center;
     margin: 100px 0 0 20px;

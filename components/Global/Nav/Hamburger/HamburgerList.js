@@ -31,6 +31,15 @@ const HamburgerItems = styled.ul`
   }
 `;
 
+const HamburgerIcon = styled.img`
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  height: 55px;
+  width: 55px;
+  color: orange;
+`;
+
 function HamburgerList({ open, setOpen }) {
   const router = useRouter();
 
@@ -49,6 +58,7 @@ function HamburgerList({ open, setOpen }) {
   return (
     <>
       <HamburgerItems open={open}>
+        <HamburgerIcon src="./hamburger-icon.svg"></HamburgerIcon>
         <li
           className={router.pathname == "/" ? "active" : ""}
           onClick={() => {

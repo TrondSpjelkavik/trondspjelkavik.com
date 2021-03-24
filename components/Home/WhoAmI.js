@@ -106,25 +106,25 @@ function About() {
       <TechStackContainer>
         <TechStack>
           <TechStackImage
-            src="https://www.t-dev.no/api/t-dev/sales-icon.svg"
+            src="./sales-icon.svg"
             alt="sales icon"
           ></TechStackImage>
         </TechStack>
         <TechStack>
           <TechStackImage
-            src="https://www.t-dev.no/api/t-dev/teamwork-icon.svg"
+            src="./teamwork-icon.svg"
             alt="teamwork icon"
           ></TechStackImage>
         </TechStack>
         <TechStack>
           <TechStackNoroff
-            src="https://www.t-dev.no/api/t-dev/noroff-icon.png"
+            src="./noroff-icon.png"
             alt="noroff icon"
           ></TechStackNoroff>
         </TechStack>
         <TechStack>
           <TechStackImageFeather
-            src="https://www.t-dev.no/api/t-dev/feather-icon.svg"
+            src="./feather-icon.svg"
             alt="feather icon"
           ></TechStackImageFeather>
         </TechStack>

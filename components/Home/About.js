@@ -57,10 +57,7 @@ function About() {
       <AboutHeadline>About me</AboutHeadline>
       <OrangeLine></OrangeLine>
       <AboutMeBox>
-        <PortfolioImg
-          src="https://www.t-dev.no/api/t-dev/trond.png"
-          alt="profile image"
-        ></PortfolioImg>
+        <PortfolioImg src="./trond.png" alt="profile image"></PortfolioImg>
         <AboutMeText>
           <AboutMeParagraph style={{ fontWeight: "700" }}>
             Currently studying Front-End Developer @ Noroff - School of
