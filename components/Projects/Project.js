@@ -76,6 +76,9 @@ const CloseIcon = styled.div`
   text-shadow: 2px 2px 2px black;
   opacity: ${({ size }) => (size ? "1" : "0")};
   transition: opacity 1.5s;
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const ProjectEnlarge = styled.div`
