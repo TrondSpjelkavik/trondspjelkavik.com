@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useState } from "react";
 
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaRegWindowClose } from "react-icons/fa";
 
 export const ProjectInfoContainer = styled.div`
   display: flex;
@@ -66,6 +66,16 @@ export const ProjectImage = styled.img`
   @media (max-width: 800px) {
     display: none;
   }
+`;
+
+const CloseIcon = styled.div`
+  position: absolute;
+  top: 470px;
+  z-index: 99;
+  right: 275px;
+  text-shadow: 2px 2px 2px black;
+  opacity: ${({ size }) => (size ? "1" : "0")};
+  transition: opacity 1.5s;
 `;
 
 const ProjectEnlarge = styled.div`
@@ -145,12 +155,14 @@ function Project({ projects, projectNumber }) {
           To github
         </FaGithub>
       </ProjectInfoButtonContainer>
+
       <ProjectImage
         src={projects[projectNumber].image}
         size={size}
         onClick={() => setSize(!size)}
         alt="project image"
       ></ProjectImage>
+      <CloseIcon size={size}>Click to close</CloseIcon>
       <ProjectEnlarge>Click to enlarge</ProjectEnlarge>
     </ProjectInfoContainer>
   );
