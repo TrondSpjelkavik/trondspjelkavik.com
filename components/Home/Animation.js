@@ -13,6 +13,7 @@ const Svg = styled.svg`
 
 const MainHeadline = styled.h1`
   font-weight: 400;
+
   position: absolute;
   top: 300px;
   left: 50%;
@@ -106,8 +107,8 @@ const Gpath = styled.g`
 `;
 
 const MobilePolygon = styled.div`
-  clip-path: polygon(0% 0%, 100% 0, 100% 64%, 50% 100%, 0 64%);
-  height: 700px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 58.2%, 50% 100%, 0 58.2%);
+  height: 100%;
   width: 100%;
   background: #051e3e;
   position: absolute;

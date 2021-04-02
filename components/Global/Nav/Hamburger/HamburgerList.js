@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const HamburgerItems = styled.ul`
+  display: none;
   position: absolute;
   height: 70px;
   width: 600px;
