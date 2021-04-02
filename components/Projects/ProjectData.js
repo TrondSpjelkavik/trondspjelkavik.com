@@ -17,7 +17,7 @@ export const projects = [
     headline: "Moomin Store",
     sub_headline:
       "This project was the semester exam after one and half year at Noroff.",
-    paragraph: `The assignment was to create an e-commerce website that has both customer-facing and admin sections. The website was populated by my own API. On the right is a gif of the admin section of the website. I also created a register form that register users on the API with a token and key.`,
+    paragraph: `The assignment was to create an e-commerce website that has both customer-facing and admin sections. The website was populated by my own API. I also created a register form that register users on the API with a token and key.`,
     grades: null,
     site: "https://t-dev.no/semester-project/",
     github: "https://github.com/TrondSpjelkavik/semester-project",

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useState } from "react";
 
-import { FaGithub, FaRegWindowClose } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export const ProjectInfoContainer = styled.div`
   display: flex;
