@@ -93,6 +93,15 @@ const ProjectEnlarge = styled.div`
   }
 `;
 
+const TechContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  @media (max-width: 800px) {
+    justify-content: center;
+  }
+`;
+
 function Project({ projects, projectNumber }) {
   const [size, setSize] = useState(false);
 
@@ -133,20 +142,14 @@ function Project({ projects, projectNumber }) {
       <ProjectInfoHeadline>
         {projects[projectNumber].headline}
       </ProjectInfoHeadline>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-start",
-          width: "100%",
-        }}
-      >
+      <TechContainer>
         <img
           style={{
             height: "40px",
           }}
           src={projects[projectNumber].tech_stack}
         ></img>
-      </div>
+      </TechContainer>
       <ProjectInfoParagraph>
         {projects[projectNumber].sub_headline}
       </ProjectInfoParagraph>
