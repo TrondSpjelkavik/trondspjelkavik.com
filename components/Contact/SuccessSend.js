@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { SocialIcons } from "../Global/Footer/Footer";
+import { SocialIcons } from "../Global/Footer/SocialIconsList";
 import {
   FaLinkedinIn,
   FaFacebookF,

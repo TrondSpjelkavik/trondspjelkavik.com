@@ -5,28 +5,30 @@ export const projects = [
     headline: "SpaceX microsite",
     sub_headline: "This project was the exam after one year at Noroff.",
     paragraph:
-      "The assignment was to build a microsite for SpaceX or NASA. The focus was on space technology. A microsite is a branded, self-contained site, usually on its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may linked to a specific event or period of time. A microsite is usually built as an addition to an existing brand website.",
+      "The assignment was to build a microsite for SpaceX or NASA. The focus was on space technology. A microsite is a branded, self-contained site, usually on its own domain, with a single purpose and a limited number of pages.",
     grades: "https://t-dev.no/grades/grades-trond-spjelkavik.png",
     site: "https://t-dev.no/spacex-microsite/",
     github: "https://github.com/TrondSpjelkavik/project-exam-1",
     image: "https://www.t-dev.no/api/t-dev/spacex.png",
+    tech_stack: "https://t-dev.no/api/t-dev/spacex-tech.svg",
   },
   {
     id: 2,
-    keyword: "E-commerce",
-    headline: "Moomin Store",
-    sub_headline:
-      "This project was the semester exam after one and half year at Noroff.",
-    paragraph: `The assignment was to create an e-commerce website that has both customer-facing and admin sections. The website was populated by my own API. I also created a register form that register users on the API with a token and key.`,
+    keyword: "Build CV",
+    headline: "Build a CV",
+    sub_headline: "A website that allows you to build a CV based on templates",
+    paragraph:
+      "The idea was to create a website that allows you to build a CV based on templates. This project is currently under development, and new templates / design is added weekly. ",
     grades: null,
-    site: "https://t-dev.no/semester-project/",
-    github: "https://github.com/TrondSpjelkavik/semester-project",
-    image: "https://www.t-dev.no/api/t-dev/moomin-store-gif.gif",
+    site: "https://build-cv.vercel.app/",
+    github: "https://github.com/TrondSpjelkavik/build-cv",
+    image: "https://www.t-dev.no/api/t-dev/build-cv.svg",
+    tech_stack: "https://t-dev.no/api/t-dev/build-cv-stack.svg",
   },
 
   {
     id: 3,
-    keyword: "Go",
+    keyword: "Golang",
     headline: "Go projects",
     sub_headline:
       "I wanted to learn more about Go and bought the book Go programming language by Alan Donovan and Brian Kernighan.",
@@ -37,5 +39,6 @@ export const projects = [
     github: "https://github.com/TrondSpjelkavik/minor-go-projects",
     book: "http://www.gopl.io/",
     image: "https://www.t-dev.no/api/t-dev/gophercolor.png",
+    tech_stack: "https://t-dev.no/api/t-dev/go-stack-1.svg",
   },
 ];

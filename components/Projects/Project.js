@@ -58,6 +58,7 @@ export const ProjectImage = styled.img`
   top: 120px;
   right: 10px;
   height: 300px;
+  width: 350px;
   cursor: pointer;
   z-index: 99;
   transform: ${({ size }) =>
@@ -132,6 +133,20 @@ function Project({ projects, projectNumber }) {
       <ProjectInfoHeadline>
         {projects[projectNumber].headline}
       </ProjectInfoHeadline>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          width: "100%",
+        }}
+      >
+        <img
+          style={{
+            height: "40px",
+          }}
+          src={projects[projectNumber].tech_stack}
+        ></img>
+      </div>
       <ProjectInfoParagraph>
         {projects[projectNumber].sub_headline}
       </ProjectInfoParagraph>
@@ -165,6 +180,7 @@ function Project({ projects, projectNumber }) {
         onClick={() => setSize(!size)}
         alt="project image"
       ></ProjectImage>
+
       <CloseIcon size={size}>Click to close</CloseIcon>
       <ProjectEnlarge>Click to enlarge</ProjectEnlarge>
     </ProjectInfoContainer>

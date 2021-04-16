@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { GoArrowUp } from "react-icons/go";
-import { FaLinkedinIn, FaFacebookF, FaGithub } from "react-icons/fa";
+import SocialIconsList from "./SocialIconsList";
 
 const FooterContainer = styled.footer`
   height: 200px;
@@ -31,30 +31,6 @@ const ToTheTop = styled.button`
   }
 `;
 
-export const SocialIconsContainer = styled.div`
-  display: flex;
-  max-width: 300px;
-  justify-content: space-around;
-  margin: 0 auto;
-  align-item: center;
-`;
-
-export const SocialIcons = styled.div`
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  height: 65px;
-  width: 55px;
-  background: #651e3e;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  position: relative;
-  top: 70px;
-  cursor: pointer;
-  &:hover {
-    background: #db6400;
-  }
-`;
-
 const CopyrightText = styled.p`
   color: white;
   font-size: 14px;
@@ -77,36 +53,12 @@ function Footer() {
 
   // Redirect to social websites
 
-  function toGithub() {
-    window.open("https://github.com/TrondSpjelkavik");
-  }
-
-  function toLinkedin() {
-    window.open(
-      "https://www.linkedin.com/in/trond-fuglseth-spjelkavik-80871552/"
-    );
-  }
-
-  function toFacebook() {
-    window.open("https://www.facebook.com/Trondchivu");
-  }
-
   return (
     <FooterContainer>
       <ToTheTop onClick={toTheTopButton} aria-label="To the top button">
         <GoArrowUp className="arrow-icon"></GoArrowUp>
       </ToTheTop>
-      <SocialIconsContainer>
-        <SocialIcons onClick={toGithub}>
-          <FaGithub className="social-icons"></FaGithub>
-        </SocialIcons>
-        <SocialIcons onClick={toLinkedin}>
-          <FaLinkedinIn className="social-icons"></FaLinkedinIn>
-        </SocialIcons>
-        <SocialIcons onClick={toFacebook}>
-          <FaFacebookF className="social-icons"></FaFacebookF>
-        </SocialIcons>
-      </SocialIconsContainer>
+      <SocialIconsList></SocialIconsList>
       <CopyrightText>Trond Fuglseth Spjelkavik © 2021</CopyrightText>
     </FooterContainer>
   );
