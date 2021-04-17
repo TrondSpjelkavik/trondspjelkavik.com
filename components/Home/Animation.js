@@ -13,7 +13,6 @@ const Svg = styled.svg`
 
 const MainHeadline = styled.h1`
   font-weight: 400;
-
   position: absolute;
   top: 300px;
   left: 50%;
@@ -26,7 +25,7 @@ const MainHeadline = styled.h1`
 
   @media (max-width: 566px) {
     font-size: 22px;
-    top: 120px;
+    top: 150px;
   }
 `;
 
@@ -44,7 +43,7 @@ const SubHeadline = styled.p`
 
   @media (max-width: 566px) {
     font-size: 16px;
-    top: 180px;
+    top: 200px;
   }
 `;
 
@@ -84,7 +83,7 @@ const FrontPageButton = styled.button`
 
   @media (max-width: 566px) {
     font-size: 16px;
-    top: 230px;
+    top: 250px;
     z-index: 99;
   }
 `;
