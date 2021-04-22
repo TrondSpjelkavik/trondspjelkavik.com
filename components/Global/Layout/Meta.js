@@ -9,7 +9,7 @@ function Meta({ title, keywords, description, icon, icon_apple }) {
     }
     gtag("js", new Date());
 
-    gtag("config", "G-67ZLWLY4HV");
+    gtag("config", "G-C1CR903WT0");
   });
 
   return (
@@ -18,7 +18,7 @@ function Meta({ title, keywords, description, icon, icon_apple }) {
 
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-67ZLWLY4HV"
+        src="https://www.googletagmanager.com/gtag/js?id=G-C1CR903WT0"
       ></script>
 
       <link rel="icon" href={icon}></link>
