@@ -20,7 +20,7 @@ export const projects = [
     paragraph:
       "The idea was to create a website that allows you to build a CV based on templates. This project is currently under development, and new templates / design is added weekly. ",
     grades: null,
-    site: "https://build-cv.vercel.app/",
+    site: "https://dincv.net",
     github: "https://github.com/TrondSpjelkavik/build-cv",
     image: "https://www.t-dev.no/api/t-dev/build-cv.svg",
     tech_stack: "https://t-dev.no/api/t-dev/build-cv-stack.svg",
